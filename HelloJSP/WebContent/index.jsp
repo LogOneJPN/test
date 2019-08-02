@@ -21,7 +21,7 @@ int add(int a, int b){
 <p>1 + 2 = <%= add(3,4) %></p>
 
 <%! int countA = 0; %>
-<% 
+<%
 int countB = 0;
 countA++;
 countB++;
@@ -41,10 +41,11 @@ countB++;
 
 <form method = "post" action = "total-out.jsp">
 <input type = "text" name = "price">
-円ｘ
+円×
 <input type = "text" name = "count">
 個+送料
-<input type = "submit" value = "計算">
+<input type = "text" name = "delivery">
+円=<input type = "submit" value = "計算">
 </form>
 
 </body>
