@@ -5,4 +5,4 @@
  * @author testuser
  *
  */
-package com.internous.login.dto;
+package com.internousdev.login.dto;

@@ -1,6 +1,6 @@
 set names utf8;
-set foriegn_key_checks = 0;
-drop database if exists logindb ando;
+set foreign_key_checks = 0;
+drop database if exists logindb_ando;
 create database logindb_ando;
 use logindb_ando;
 
