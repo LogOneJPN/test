@@ -1,4 +1,5 @@
 package com.internousdev.login.action;
+
 import java.sql.SQLException;
 
 import com.internousdev.login.dao.LoginDAO;
@@ -15,7 +16,7 @@ public class LoginAction extends ActionSupport{
 		LoginDAO dao = new LoginDAO();
 		LoginDTO dto = new LoginDTO();
 
-		dto = dao.select(name, password);
+		dto = dao.select(name,password);
 
 		if(name.equals(dto.getName())) {
 			if(password.equals(dto.getPassword())) {
@@ -24,6 +25,7 @@ public class LoginAction extends ActionSupport{
 		}
 	return ret;
 	}
+
 	public String getName() {
 		return name;
 	}
