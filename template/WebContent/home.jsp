@@ -54,6 +54,8 @@
 			height: 80px;
 			background-color: black;
 			clear: both;
+			position: absolute;
+			bottom: 0;
 		}
 	</style>
 
@@ -61,7 +63,7 @@
 <body>
 
 	<div id = "header">
-		<div id = "top">
+		<div id = "pr">
 		</div>
 	</div>
 

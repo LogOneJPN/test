@@ -53,6 +53,8 @@
 			height: 80px;
 			background-color: black;
 			clear: both;
+			position: absolute;
+			bottom: 0;
 		}
 	</style>
 </head>

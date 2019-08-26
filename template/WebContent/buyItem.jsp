@@ -30,30 +30,30 @@
 		}
 
 	/* ======ID LAYOUT====== */
-	#top{
-		width: 780px;
-		margin: 30px auto;
-		border: 1px solid #333;
-	}
+		#top{
+			width: 780px;
+			margin: 30px auto;
+			border: 1px solid #333;
+		}
 
-	#header{
-		width: 100%;
-		height: 80px;
-		background-color: black;
-	}
+		#header{
+			width: 100%;
+			height: 80px;
+			background-color: black;
+		}
 
-	#main{
-		width: 100px;
-		height: 500px;
-		text-align: center;
-	}
+		#main{
+			width: 100%;
+			height: 100px;
+			text-align: center;
+		}
 
-	#footer {
-		width: 100%;
-		height: 80px;
-		background-color: black;
-		clear: both;
-	}
+		#footer {
+			width: 100%;
+			height: 80px;
+			background-color: black;
+			clear: both;
+		}
 	</style>
 </head>
 <body>
