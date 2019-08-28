@@ -20,8 +20,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 
 		if(!(loginUserId.equals(""))
 			&& !(loginPassword.equals(""))
-			&& !(userName.equals(""))
-				){
+			&& !(userName.equals(""))){
 				session.put("loginUserId", loginUserId);
 				session.put("loginPassword", loginPassword);
 				session.put("userName", userName);
@@ -52,7 +51,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 		return userName;
 	}
 
-	public void setUsername(String userName){
+	public void setUserName(String userName){
 		this.userName = userName;
 	}
 

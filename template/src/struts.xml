@@ -33,10 +33,9 @@
 		</action>
 
 		<!-- UserCreateConfirmAction -->
-		<action name = "UserCreareConfirmAction"
+		<action name = "UserCreateConfirmAction"
 		class = "com.internousdev.template.action.UserCreateConfirmAction"
-		method = "execute"
-		>
+		method = "execute">
 			<result name = "success">userCreateConfirm.jsp</result>
 			<result name = "error">userCreate.jsp</result>
 		</action>
@@ -48,5 +47,18 @@
 			<result name = "success">userCreateComplete.jsp</result>
 		</action>
 
+		<!-- BuyItemAction -->
+		<action name = "BuyItemAction"
+		class = "com.internousdev.template.action.BuyItemAction"
+		method = "execute">
+			<result name = "success">buyItemConfirm.jsp</result>
+		</action>
+
+		<!-- BuyItemConfirmAction -->
+		<action name = "BuyItemConfirmAction"
+		class = "com.internousdev.template.action.BuyItemConfirmAction"
+		method = "execute">
+			<result name = "success">buyItemComplete.jsp</result>
+		</action>
 	</package>
 </struts>
